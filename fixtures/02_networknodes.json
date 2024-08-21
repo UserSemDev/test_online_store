@@ -1,0 +1,50 @@
+[
+  {
+    "model": "online_store.networknode",
+    "pk": 1,
+    "fields": {
+      "name": "Завод NVIDIA",
+      "email": "factory@nvidia.com",
+      "country": "США",
+      "city": "Санта-Клара",
+      "street": "San Tomas Expressway",
+      "house_number": "2701",
+      "level": "0",
+      "supplier": null,
+      "debt": "0.00",
+      "created_at": "2024-08-21T13:49:26.305Z"
+    }
+  },
+  {
+    "model": "online_store.networknode",
+    "pk": 2,
+    "fields": {
+      "name": "Розничная сеть NVIDIA",
+      "email": "retail@nvidia.com",
+      "country": "США",
+      "city": "Madison",
+      "street": "East Wilson",
+      "house_number": "9",
+      "level": "1",
+      "supplier": 1,
+      "debt": "100000.00",
+      "created_at": "2024-08-21T13:55:30.022Z"
+    }
+  },
+  {
+    "model": "online_store.networknode",
+    "pk": 3,
+    "fields": {
+      "name": "ИП Забугорный",
+      "email": "zabugor@business.com",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Московская",
+      "house_number": "12",
+      "level": "2",
+      "supplier": 2,
+      "debt": "10000.00",
+      "created_at": "2024-08-21T13:58:35.541Z"
+    }
+  }
+]
